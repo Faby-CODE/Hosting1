@@ -41,9 +41,9 @@
     #text-box {
       display: none; /* Inicialmente está oculto */
       width: 300px;
-      height: 200px;
+      height: 300px;
       position: absolute; /* Lo coloca sobre el GIF */
-      top: 80px; /* Ajusta la posición para que esté más abajo del GIF */
+      top: 60px; /* Ajusta la posición para que esté 2 cm más abajo del GIF */
       left: 50%; /* Centra el cuadro de texto */
       transform: translateX(-50%); /* Asegura que el cuadro esté centrado */
       padding: 10px;
@@ -52,17 +52,6 @@
       color: black;
       text-align: center;
       font-size: 1.2em;
-    }
-
-    /* Estilo para el textarea (cuadro de texto) */
-    #textarea {
-      width: 100%;
-      height: 100%;
-      font-size: 1.2em; /* Asegura que el texto sea legible */
-      padding: 10px;
-      border: none;
-      box-sizing: border-box; /* Hace que el padding no afecte el tamaño */
-      resize: none; /* Evita que el usuario cambie el tamaño */
     }
 
     /* Estilos para el botón */
@@ -78,6 +67,17 @@
 
     button:hover {
       background-color: #45a049; /* Color verde más oscuro al pasar el ratón */
+    }
+
+    /* Estilo para el textarea (cuadro de texto) */
+    #textarea {
+      width: 100%;
+      height: 100%;
+      font-size: 1.2em; /* Asegura que el texto sea legible */
+      padding: 10px;
+      border: none;
+      box-sizing: border-box; /* Hace que el padding no afecte el tamaño */
+      resize: none; /* Evita que el usuario cambie el tamaño */
     }
   </style>
 </head>
@@ -95,7 +95,18 @@
 
   <!-- Cuadro de texto para agregar texto -->
   <div id="text-box">
-    <textarea id="textarea" placeholder="Escribe aquí..."></textarea>
+    <textarea id="textarea">
+Hola!!  
+Feliz año nuevo!!
+
+Espero este nuevo comienzo este lleno de metas y propositos para ti, se que cumpliras todos ellos, eres una persona muy capaz, además tu bonita y agradable personalidad te llevará tan lejos como te lo propongas.
+
+Gracias por formar parte de algunos momentos de mi año, aun a lo lejos te mando un abrazo, te deseo un bonito año lleno de buenos momentos.
+
+PD: Guarde la foto del fondo, me gustó mucho ❤.
+
+Att: Faby :3
+    </textarea>
   </div>
 
   <script>
@@ -107,3 +118,4 @@
   </script>
 </body>
 </html>
+
